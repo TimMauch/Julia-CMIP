@@ -1,0 +1,4 @@
+[deps]
+numpy = ""
+python = "=3.12"
+libpython = ""

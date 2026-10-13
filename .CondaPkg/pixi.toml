@@ -1,6 +1,8 @@
 [dependencies]
 numpy = "*"
 openssl = ">=3, <3.6"
+xarray = "*"
+netcdf4 = "*"
 libpython = "*"
 
     [dependencies.python]

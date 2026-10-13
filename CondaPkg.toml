@@ -1,4 +1,6 @@
 [deps]
 numpy = ""
+xarray = ""
+netcdf4 = ""
 python = "=3.12"
 libpython = ""

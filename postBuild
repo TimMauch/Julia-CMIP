@@ -1,3 +1,0 @@
-#!/bin/bash
-# Build the Python environment (CondaPkg.toml) at image build time instead of on first notebook run
-julia --project=. -e 'using PythonCall'

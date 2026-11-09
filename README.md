@@ -10,7 +10,7 @@
 **Option 1: Run in Browser (MyBinder)**
 Click the badge below to launch the Jupyter notebook directly in your browser. The environment comes pre-installed with all necessary Julia dependencies.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TimMauch/Julia-CMIP/d2bcb8e2d563eb5f5253a07700354264027f48ce?urlpath=lab%2Ftree%2Fclimate_stripes.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TimMauch/Julia-CMIP/main)
 
 *Note: The initial Binder launch may take a few minutes to build the environment.*
 

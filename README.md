@@ -16,6 +16,19 @@ Click the badge below to launch the Jupyter notebook directly in your browser. T
 
 ---
 
+**Option 1b: Run in Browser (GitHub Codespaces)**
+Requires a (free) GitHub account. Click the badge below, then click **Create codespace**. A VS Code instance opens in your browser with Julia, Jupyter and all packages pre-installed.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TimMauch/Julia-CMIP?quickstart=1)
+
+1. Wait until the setup in the terminal has finished (the first start takes several minutes because packages are installed and precompiled).
+2. Open `climate_stripes.ipynb`, click **Select Kernel** (top right) → **Jupyter Kernel...** → **Julia 1.13**.
+3. Run the cells.
+
+*Note: Free accounts get 120 core-hours per month (= 30 h on the 4-core machine used here). Stop or delete your codespace at [github.com/codespaces](https://github.com/codespaces) when you are done.*
+
+---
+
 **Option 2: Run Locally (VS Code)**
 To run the code on your local machine, follow these steps:
 

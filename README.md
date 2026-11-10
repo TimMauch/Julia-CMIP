@@ -10,22 +10,9 @@
 **Option 1: Run in Browser (MyBinder)**
 Click the badge below to launch the Jupyter notebook directly in your browser. The environment comes pre-installed with all necessary Julia dependencies.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TimMauch/Julia-CMIP/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TimMauch/Julia-CMIP/main?labpath=climate_stripes_binder.ipynb)
 
-*Note: The initial Binder launch may take a few minutes to build the environment.*
-
----
-
-**Option 1b: Run in Browser (GitHub Codespaces)**
-Requires a (free) GitHub account. Click the badge below, then click **Create codespace**. A VS Code instance opens in your browser with Julia, Jupyter and all packages pre-installed.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TimMauch/Julia-CMIP?quickstart=1)
-
-1. Wait until the setup in the terminal has finished (the first start takes several minutes because packages are installed and precompiled).
-2. Open `climate_stripes.ipynb`, click **Select Kernel** (top right) → **Jupyter Kernel...** → **Julia 1.13**.
-3. Run the cells.
-
-*Note: Free accounts get 120 core-hours per month (= 30 h on the 4-core machine used here). Stop or delete your codespace at [github.com/codespaces](https://github.com/codespaces) when you are done.*
+*Note: The initial Binder launch may take a few minutes to build the environment. The badge opens `climate_stripes_binder.ipynb`, a version of the notebook adapted to the limited memory on Binder.*
 
 ---
 
@@ -44,6 +31,7 @@ Open VS Code, navigate to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`),
 3. **Clone the Repository**
 Open your terminal or command prompt and clone this repository:
 ```bash
-git clone <YOUR_REPO_LINK_HERE>
-cd <REPO_NAME>
+git clone https://github.com/TimMauch/Julia-CMIP.git
+cd Julia-CMIP
+```
 

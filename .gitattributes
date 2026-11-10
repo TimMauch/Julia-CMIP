@@ -1,2 +1,2 @@
 *.sh text eol=lf
-postbuild text eol=lf
+postBuild text eol=lf
